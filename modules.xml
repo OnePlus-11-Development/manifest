@@ -119,6 +119,12 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
  </project>
 
+  <!-- nxp-driver -->
+  <project name="vendor_nxp_opensource_driver" path="vendor/nxp/opensource/driver" remote="OPLUS" >
+    <linkfile dest="vendor/nxp/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
+    <linkfile dest="vendor/nxp/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
+ </project>
+
   <!-- eSE-driver -->
   <project name="vendor_qcom_opensource_eSE-driver" path="vendor/qcom/opensource/eSE-driver" remote="OPLUS" >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/ese_kernel_board.mk" src="ese_kernel_board.mk"/>
