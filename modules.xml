@@ -113,6 +113,18 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" src="touch_driver_product.mk"/>
  </project>
 
+  <!-- nfc-st-driver -->
+  <project name="vendor_qcom_opensource_nfc-st-driver" path="vendor/qcom/opensource/nfc-st-driver" remote="OPLUS" >
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
+ </project>
+
+  <!-- eSE-driver -->
+  <project name="vendor_qcom_opensource_eSE-driver" path="vendor/qcom/opensource/eSE-driver" remote="OPLUS" >
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/ese_kernel_board.mk" src="ese_kernel_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ese_kernel_product.mk" src="ese_kernel_product.mk"/>
+ </project>
+
   <!-- Build script -->
   <project name="kernel_platform_script" path="kernel_platform/script" remote="OPLUS">
     <linkfile dest="build.sh" src="build.sh"/>
