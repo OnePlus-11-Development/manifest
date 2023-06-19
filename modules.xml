@@ -131,6 +131,12 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ese_kernel_product.mk" src="ese_kernel_product.mk"/>
  </project>
 
+  <!-- explorer -->
+  <project name="vendor_oplus_kernel_explorer" path="vendor/oplus/kernel/explorer" remote="OPLUS" >
+    <linkfile dest="vendor/oplus/defs/board-defs/vendor/explorer_lahaina_board.mk" src="explorer_lahaina_board.mk"/>
+    <linkfile dest="vendor/oplus/defs/product-defs/vendor/explorer_lahaina_product.mk" src="explorer_lahaina_product.mk"/>
+ </project>
+
   <!-- Build script -->
   <project name="kernel_platform_script" path="kernel_platform/script" remote="OPLUS">
     <linkfile dest="build.sh" src="build.sh"/>
