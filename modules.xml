@@ -12,11 +12,18 @@
 
   <!-- Proprietary -->
   <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_data-devicetree" path="vendor/qcom/proprietary/data-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_eSE-devicetree" path="vendor/qcom/proprietary/eSE-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_graphics-devicetree" path="vendor/qcom/proprietary/graphics-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_mm-devicetree" path="vendor/qcom/proprietary/mm-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_nfc-devicetree" path="vendor/qcom/proprietary/nfc-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" remote="OPLUS" />
+  <project name="vendor_qcom_proprietary_wlan-devicetree" path="vendor/qcom/proprietary/wlan-devicetree" remote="OPLUS" />
 
    <!-- audio-kernel -->
   <project name="vendor_qcom_opensource_audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" remote="OPLUS" >
