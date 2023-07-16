@@ -6,11 +6,14 @@
       sync-tags="false"
       revision="lineage-20" />
 
-  <project remote="OPLUS" name="android_kernel_oneplus_sm8550" path="kernel_platform/msm-kernel" >
-   <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
+  <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="OPLUS" >
+    <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
   </project>
 
-  <!-- Proprietary -->
+  <!-- Proprietary main devicetree -->
+  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" remote="OPLUS" />
+
+  <!-- Proprietary devicetree -->
   <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_bt-devicetree" path="vendor/qcom/proprietary/bt-devicetree" remote="OPLUS" />
   <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" remote="OPLUS" />
