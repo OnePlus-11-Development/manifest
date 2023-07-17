@@ -6,6 +6,7 @@
       sync-tags="false"
       revision="lineage-20" />
 
+  <!-- MSM kernel -->
   <project name="kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" remote="OPLUS" >
     <linkfile dest="kernel_platform/common/build.config.msm.kalama" src="build.config.msm.kalama"/>
   </project>
@@ -93,59 +94,53 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/datarmnet_ext_dlkm_vendor_product.mk" src="datarmnet_ext_dlkm_vendor_product.mk"/>
   </project>
 
-  <!-- qcacld-3.0 -->
-  <project name="vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="OPLUS" />
-
-  <!-- fw-api -->
+  <!-- wlan -->
   <project name="vendor_qcom_opensource_wlan_fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="OPLUS" />
-
-  <!-- qca-wifi-host-cmn -->
-  <project name="vendor_qcom_opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="OPLUS" />
-
-  <!-- wlan-platform -->
   <project name="vendor_qcom_opensource_wlan_platform" path="vendor/qcom/opensource/wlan/platform" remote="OPLUS" />
+  <project name="vendor_qcom_opensource_wlan_qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="OPLUS" />
+  <project name="vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="OPLUS" />
 
   <!-- bt-kernel -->
   <project name="vendor_qcom_opensource_bt-kernel" path="vendor/qcom/opensource/bt-kernel" remote="OPLUS" >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt_kernel_vendor_board.mk" src="bt_kernel_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/bt_kernel_product_board.mk" src="bt_kernel_product_board.mk"/>
- </project>
+  </project>
 
   <!-- eva-kernel -->
   <project name="vendor_qcom_opensource_eva-kernel" path="vendor/qcom/opensource/eva-kernel" remote="OPLUS"  >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/eva_kernel_board.mk" src="eva_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/eva_kernel_product.mk" src="eva_kernel_product.mk"/>
- </project>
+  </project>
 
-  <!-- bt-kernel -->
+  <!-- touch-drivers -->
   <project name="vendor_qcom_opensource_touch-drivers" path="vendor/qcom/opensource/touch-drivers" remote="OPLUS" >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/touch_driver_board.mk" src="touch_driver_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" src="touch_driver_product.mk"/>
- </project>
+  </project>
 
   <!-- nfc-st-driver -->
   <project name="vendor_qcom_opensource_nfc-st-driver" path="vendor/qcom/opensource/nfc-st-driver" remote="OPLUS" >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
- </project>
+  </project>
 
   <!-- nxp-driver -->
   <project name="vendor_nxp_opensource_driver" path="vendor/nxp/opensource/driver" remote="OPLUS" >
     <linkfile dest="vendor/nxp/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" src="nfc_kernel_dlkm_vendor_board.mk"/>
     <linkfile dest="vendor/nxp/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" src="nfc_kernel_dlkm_vendor_product.mk"/>
- </project>
+  </project>
 
   <!-- eSE-driver -->
   <project name="vendor_qcom_opensource_eSE-driver" path="vendor/qcom/opensource/eSE-driver" remote="OPLUS" >
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/ese_kernel_board.mk" src="ese_kernel_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ese_kernel_product.mk" src="ese_kernel_product.mk"/>
- </project>
+  </project>
 
   <!-- explorer -->
   <project name="vendor_oplus_kernel_explorer" path="vendor/oplus/kernel/explorer" remote="OPLUS" >
     <linkfile dest="vendor/oplus/defs/board-defs/vendor/explorer_lahaina_board.mk" src="explorer_lahaina_board.mk"/>
     <linkfile dest="vendor/oplus/defs/product-defs/vendor/explorer_lahaina_product.mk" src="explorer_lahaina_product.mk"/>
- </project>
+  </project>
 
   <!-- Build script -->
   <project name="kernel_platform_script" path="kernel_platform/script" remote="OPLUS">
